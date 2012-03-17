@@ -1,0 +1,66 @@
+-
+  object: d3/d3
+  from:   js/Object
+  title:  D3.js namespace object
+  url:    https://github.com/mbostock/d3/wiki/API-Reference
+  methods:
+    -
+      name:    select§selector
+      scope:   self
+      returns: d3/Selection
+      summary: Select an element from the current document.
+      url:     'https://github.com/mbostock/d3/wiki/Selections#wiki-d3_select'
+      seealso:
+        - d3/d3/select§node
+        - d3/d3/selectAll§selector
+        - d3/d3/selectAll§nodes
+        - d3/Selection/select
+        - d3/Selection/selectAll
+      params: 
+        - name: selector
+          kind: js/String
+    -
+      name:    select§node
+      scope:   self
+      returns: d3/Selection
+      summary: Select an element from the current document.
+      url:     'https://github.com/mbostock/d3/wiki/Selections#wiki-d3_select'
+      seealso:
+        - d3/d3/select§selector
+        - d3/d3/selectAll§selector
+        - d3/d3/selectAll§nodes
+        - d3/Selection/select
+        - d3/Selection/selectAll
+      params: 
+        - name: node
+          kind: js/Array
+    -
+      name:    selectAll§selector
+      scope:   self
+      returns: d3/Selection
+      summary: Select multiple elements from the current document.
+      url:     'https://github.com/mbostock/d3/wiki/Selections#wiki-d3_selectAll'
+      seealso:
+        - d3/d3/select§node
+        - d3/d3/select§selector
+        - d3/d3/selectAll§nodes
+        - d3/Selection/select
+        - d3/Selection/selectAll
+      params: 
+        - name: selector
+          kind: js/String
+    -
+      name:    selectAll§nodes
+      scope:   self
+      returns: d3/Selection
+      summary: Select multiple elements from the current document.
+      url:     'https://github.com/mbostock/d3/wiki/Selections#wiki-d3_selectAll'
+      seealso:
+        - d3/d3/select§node
+        - d3/d3/select§selector
+        - d3/d3/selectAll§selector
+        - d3/Selection/select
+        - d3/Selection/selectAll
+      params: 
+        - name: nodes
+          kind: js/Array

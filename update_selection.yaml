@@ -1,0 +1,6 @@
+-
+  object:  d3/UpdateSelection
+  from:    d3/Selection
+  summary: Selection calculated from [[d3/Selection/data]]
+  url:     https://github.com/mbostock/d3/wiki/Selections
+  methods:
