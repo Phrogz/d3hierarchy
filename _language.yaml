@@ -1,0 +1,5 @@
+name:      D3.js
+url:       http://mbostock.github.com/d3/
+prefix:    d3
+copyright: "Portions copyright (c) 2012, Michael Bostock"
+overview:  A JavaScript visualization library for HTML and SVG
