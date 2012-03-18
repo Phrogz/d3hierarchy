@@ -1,0 +1,24 @@
+---
+- method: d3/Selection/select§value
+  scope: 
+  returns: d3/Selection
+  summary: Find the first descendant elements of the selection matching a selector.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-select
+  seealso:
+  - d3/Selection/select§func
+  - d3/Selection/selectAll§value
+  params:
+  - name: selector
+    kind: js/String
+- method: d3/Selection/select§func
+  scope: 
+  returns: d3/Selection
+  summary: Use a function to select a different element for each entry in the selection.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-select
+  seealso:
+  - d3/Selection/select§value
+  - d3/Selection/selectAll§func
+  params:
+  - name: selectCalculator
+    kind: js/Function
+    summary: Invoked for each entry in the selection, with parameters for the current datum and index, and with the `this` context as the current DOM element. Must return either an element or `null`.

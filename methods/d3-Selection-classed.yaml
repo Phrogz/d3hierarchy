@@ -1,0 +1,40 @@
+---
+- method: d3/Selection/classed§get
+  scope: 
+  returns: js/Boolean
+  summary: Check to see if the selection has the specified class.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-classed
+  seealso:
+  - d3/Selection/classed§value
+  - d3/Selection/classed§func
+  params:
+  - name: name
+    kind: js/String
+- method: d3/Selection/classed§value
+  scope: 
+  returns: d3/Selection
+  summary: Add/remove a CSS class from the selection.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-classed
+  seealso:
+  - d3/Selection/classed§get
+  - d3/Selection/classed§func
+  params:
+  - name: name
+    kind: js/String
+  - name: addClass
+    kind: js/Boolean
+    summary: If this parameter is not a boolean it is forced to one.
+- method: d3/Selection/classed§func
+  scope: 
+  returns: d3/Selection
+  summary: Add/remove a CSS class from the selection based on data.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-classed
+  seealso:
+  - d3/Selection/classed§get
+  - d3/Selection/classed§value
+  params:
+  - name: name
+    kind: js/String
+  - name: func
+    kind: js/Function
+    summary: The function is evaluated for each selected element (in order), being passed the current datum `d` and the current index `i`, with the `this` context as the current DOM element. The function's return value is then used to assign or unassign the specified class on each element.

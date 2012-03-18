@@ -1,0 +1,48 @@
+---
+- method: d3/Selection/style§get
+  scope: 
+  returns: js/String
+  summary: Get the computed value of a CSS style property.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-style
+  seealso:
+  - d3/Selection/style§value
+  - d3/Selection/style§func
+  params:
+  - name: name
+    kind: js/String
+- method: d3/Selection/style§value
+  scope: 
+  returns: d3/Selection
+  summary: Set a CSS style property for elements in the selection.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-style
+  seealso:
+  - d3/Selection/style§get
+  - d3/Selection/style§func
+  params:
+  - name: name
+    kind: js/String
+  - name: value
+    kind: js/String
+    summary: If this parameter is not a string it is forced to one.
+  - name: priority
+    kind: js/String
+    summary: Either `null` or the string `"important"`.
+    optional: true
+- method: d3/Selection/style§func
+  scope: 
+  returns: d3/Selection
+  summary: Set a CSS style property for elements in the selection based on data.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-style
+  seealso:
+  - d3/Selection/style§get
+  - d3/Selection/style§value
+  params:
+  - name: name
+    kind: js/String
+  - name: func
+    kind: js/Function
+    summary: The function is evaluated for each selected element (in order), being passed the current datum `d` and the current index `i`, with the `this` context as the current DOM element. The function's return value is then used to set each element's style property. A `null` value will remove the style property
+  - name: priority
+    kind: js/String
+    summary: Either `null` or the string `"important"`.
+    optional: true

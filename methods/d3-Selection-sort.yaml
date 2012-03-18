@@ -1,0 +1,12 @@
+---
+- method: d3/Selection/sort
+  scope: 
+  returns: d3/Selection
+  summary: Sort the order of elements in the selection (and DOM) according to custom criteria.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-sort
+  seealso:
+  - d3/Selection/order
+  params:
+  - name: comparator
+    kind: js/Function
+    summary: This function is passed two data elements _a_ and _b_ to compare, and must return either a negative number, positive number, or zero. If negative, then _a_ should be before _b_; if positive, then _a_ should be after _b_; if zero, _a_ and _b_ are considered equal and the order is arbitrary.

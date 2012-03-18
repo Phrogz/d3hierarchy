@@ -1,0 +1,5 @@
+---
+- object: d3/d3
+  from: js/Object
+  summary: D3.js namespace object
+  url: https://github.com/mbostock/d3/wiki/API-Reference

@@ -1,0 +1,40 @@
+---
+- method: d3/Selection/attr§get
+  scope: 
+  returns: d3/Selection
+  summary: Get attribute value.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-attr
+  seealso:
+  - d3/Selection/attr§value
+  - d3/Selection/attr§func
+  params:
+  - name: name
+    kind: js/String
+- method: d3/Selection/attr§value
+  scope: 
+  returns: d3/Selection
+  summary: Set attribute value.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-attr
+  seealso:
+  - d3/Selection/attr§get
+  - d3/Selection/attr§func
+  params:
+  - name: name
+    kind: js/String
+  - name: value
+    kind: js/String
+    summary: Non-string values (e.g. a number like `10`) are coerced to strings before setting.
+- method: d3/Selection/attr§func
+  scope: 
+  returns: d3/Selection
+  summary: Set attribute value from data.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-attr
+  seealso:
+  - d3/Selection/attr§get
+  - d3/Selection/attr§value
+  params:
+  - name: name
+    kind: js/String
+  - name: func
+    kind: js/Function
+    summary: The function is evaluated for each selected element (in order), being passed the current datum `d` and the current index `i`, with the `this` context as the current DOM element. The function's return value is then used to set each element's attribute. A `null` value will remove the specified attribute.

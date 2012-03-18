@@ -1,0 +1,30 @@
+---
+- method: d3/Selection/on§get
+  scope: 
+  returns: d3/Selection
+  summary: Retrieve the event listener for an event type.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-on
+  seealso:
+  - d3/Selection/on§set
+  params:
+  - name: eventName
+    kind: js/String
+    summary: Name of the event, e.g. 'click' or 'mouseover'.
+- method: d3/Selection/on§set
+  scope: 
+  returns: d3/Selection
+  summary: Retrieve the event listener for an event type.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-on
+  seealso:
+  - d3/Selection/on§get
+  - d3/d3/event
+  params:
+  - name: eventName
+    kind: js/String
+    summary: Name of the event, e.g. 'click' or 'mouseover'. To register multiple handlers for the same type on the same element, use a trailing namespace, e.g. 'click.foo' and 'click.bar'.
+  - name: eventHandler
+    kind: js/Function
+    summary: Function to be invoked when the event occurs. Will be passed the datum for the current object, the index of that object in the selection, and with the `this` context set to the DOM element. To remove an event handler, pass `null` for this parameter.
+  - name: capturePhase
+    kind: js/Boolean
+    summary: Corresponds to the [W3C useCapture flag](http://www.w3.org/TR/DOM-Level-2-Events/events.html#Events-registration).

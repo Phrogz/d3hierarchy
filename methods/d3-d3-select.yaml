@@ -1,0 +1,29 @@
+---
+- method: d3/d3/select§selector
+  scope: self
+  returns: d3/Selection
+  summary: Select an element from the current document.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-d3_select
+  seealso:
+  - d3/d3/select§node
+  - d3/d3/selectAll§selector
+  - d3/d3/selectAll§nodes
+  - d3/Selection/select
+  - d3/Selection/selectAll
+  params:
+  - name: selector
+    kind: js/String
+- method: d3/d3/select§node
+  scope: self
+  returns: d3/Selection
+  summary: Select an element from the current document.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-d3_select
+  seealso:
+  - d3/d3/select§selector
+  - d3/d3/selectAll§selector
+  - d3/d3/selectAll§nodes
+  - d3/Selection/select
+  - d3/Selection/selectAll
+  params:
+  - name: node
+    kind: js/Array

@@ -1,0 +1,34 @@
+---
+- method: d3/Selection/datum§get
+  scope: 
+  returns: js/Object
+  summary: Return the data associated with the first element in the selection (if any).
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-datum
+  seealso:
+  - d3/Selection/datum§value
+  - d3/Selection/datum§func
+  params: 
+- method: d3/Selection/datum§value
+  scope: 
+  returns: d3/Selection
+  summary: Set the data associated with elements in the selection.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-datum
+  seealso:
+  - d3/Selection/datum§get
+  - d3/Selection/datum§func
+  params:
+  - name: value
+    kind: js/Object
+    summary: May be any JavaScript object (number, array, string, DOM element, etc.)
+- method: d3/Selection/datum§func
+  scope: 
+  returns: d3/Selection
+  summary: Set the data associated with elements in the selection based on existing data.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-datum
+  seealso:
+  - d3/Selection/datum§get
+  - d3/Selection/datum§func
+  params:
+  - name: func
+    kind: js/Function
+    summary: This function is invoked for each selected element, being passed the previous datum `d` and the current index `i`, with the `this` context as the current DOM element. The return value of this function is used to set each element's data. A `null` value will delete the bound data.
