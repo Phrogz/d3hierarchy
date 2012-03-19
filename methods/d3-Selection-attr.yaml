@@ -13,7 +13,7 @@
 - method: d3/Selection/attr§value
   scope: 
   returns: d3/Selection
-  summary: Set attribute value.
+  summary: Set attribute to a value.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-attr
   seealso:
   - d3/Selection/attr§get

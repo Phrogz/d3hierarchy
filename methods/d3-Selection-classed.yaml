@@ -21,9 +21,9 @@
   params:
   - name: name
     kind: js/String
-  - name: addClass
+  - name: setFlag
     kind: js/Boolean
-    summary: If this parameter is not a boolean it is forced to one.
+    summary: Whether to add or remove the class name. If this parameter is not a boolean it is forced to one.
 - method: d3/Selection/classed§func
   scope: 
   returns: d3/Selection
