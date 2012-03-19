@@ -1,0 +1,23 @@
+---
+-
+  method: d3/Transition/duration§value
+  returns: d3/Transition
+  summary: Specify transition duration for all elements.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-duration
+  seealso:
+  - d3/Transition/duration§func
+  params:
+  - name: durationMS
+    kind: js/Number
+    summary: Running time of the transition, in milliseconds.
+-
+  method: d3/Transition/duration§func
+  returns: d3/Transition
+  summary: Calculate per-element transition duration.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-duration
+  seealso:
+  - d3/Transition/duration§value
+  params:
+  - name: durationCalculator
+    kind: js/Function
+    summary: Invoked for each element in the transition selection, passed the element's datum, index, and with the `this` context set to the element. The return value is set as the transition duration for the element, in milliseconds.

@@ -1,0 +1,23 @@
+---
+-
+  method: d3/Transition/delay§value
+  returns: d3/Transition
+  summary: Specify transition delay for all elements.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-delay
+  seealso:
+  - d3/Transition/delay§func
+  params:
+  - name: delayMS
+    kind: js/Number
+    summary: Delay before starting the transition, in milliseconds.
+-
+  method: d3/Transition/delay§func
+  returns: d3/Transition
+  summary: Calculate per-element transition delay.
+  url: https://github.com/mbostock/d3/wiki/Selections#wiki-delay
+  seealso:
+  - d3/Transition/delay§value
+  params:
+  - name: delayCalculator
+    kind: js/Function
+    summary: Invoked for each element in the transition selection, passed the element's datum, index, and with the `this` context set to the element. The return value is set as the transition delay for the element, in milliseconds.

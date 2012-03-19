@@ -1,0 +1,11 @@
+---
+method: d3/d3/transition
+scope: self
+returns: d3/Transition
+summary: Start an animated transition.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_transition
+seealso:
+- d3/Selection/transition
+params:
+- name: selection
+  kind: d3/Selection

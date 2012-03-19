@@ -1,0 +1,21 @@
+---
+method: d3/d3/ease
+scope: self
+returns: js/Function
+summary: Retrieve a predefined easing function.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_ease
+seealso:
+- d3/Transition/ease§value
+- d3/Transition/ease§func
+params:
+- name: easingType
+  kind: js/String
+  summary: One of the [predefined easing types](https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_ease).
+- name: easeParam1
+  kind: js/String
+  summary: Additional parameter based on the easing function.
+  optional: true
+- name: easeParam2
+  kind: js/String
+  summary: Additional parameter based on the easing function.
+  optional: true

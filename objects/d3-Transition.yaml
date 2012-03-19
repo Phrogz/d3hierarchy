@@ -1,0 +1,5 @@
+---
+object: d3/Transition
+from: js/Array
+summary: A special type of [selection](objjob:d3/Selection) where the operators apply smoothly over time rather than instantaneously.
+url: https://github.com/mbostock/d3/wiki/Transitions
