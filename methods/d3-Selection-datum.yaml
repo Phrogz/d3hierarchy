@@ -1,15 +1,12 @@
 ---
 - method: d3/Selection/datum§get
-  scope: 
   returns: js/Object
   summary: Return the data associated with the first element in the selection (if any).
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-datum
   seealso:
   - d3/Selection/datum§value
   - d3/Selection/datum§func
-  params: 
 - method: d3/Selection/datum§value
-  scope: 
   returns: d3/Selection
   summary: Set the data associated with elements in the selection.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-datum
@@ -21,7 +18,6 @@
     kind: js/Object
     summary: May be any JavaScript object (number, array, string, DOM element, etc.)
 - method: d3/Selection/datum§func
-  scope: 
   returns: d3/Selection
   summary: Set the data associated with elements in the selection based on existing data.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-datum

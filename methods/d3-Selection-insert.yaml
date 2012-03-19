@@ -1,16 +1,15 @@
 ---
-- method: d3/Selection/insert
-  scope: 
-  returns: js/String
-  summary: Create and insert new elements before existing ones, returning a selection of the new elements.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-insert
-  seealso:
-  - d3/Selection/append
-  - d3/Selection/html§value
-  params:
-  - name: tagName
-    kind: js/String
-    summary: May have a namespace prefix, such as `svg:text` to create a `<text>` element in the SVG namespace. By default, D3 supports svg, xhtml, xlink, xml and xmlns namespaces. Additional namespaces can be registered by adding to [`d3.ns.prefix`](https://github.com/mbostock/d3/wiki/Namespaces#wiki-prefix).
-  - name: beforeSelector
-    kind: js/String
-    summary: A selector to find the element to insert the new element before.
+method: d3/Selection/insert
+returns: js/String
+summary: Create and insert new elements before existing ones, returning a selection of the new elements.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-insert
+seealso:
+- d3/Selection/append
+- d3/Selection/html§value
+params:
+- name: tagName
+  kind: js/String
+  summary: May have a namespace prefix, such as `svg:text` to create a `<text>` element in the SVG namespace. By default, D3 supports svg, xhtml, xlink, xml and xmlns namespaces. Additional namespaces can be registered by adding to [`d3.ns.prefix`](https://github.com/mbostock/d3/wiki/Namespaces#wiki-prefix).
+- name: beforeSelector
+  kind: js/String
+  summary: A selector to find the element to insert the new element before.

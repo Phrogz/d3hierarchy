@@ -1,13 +1,12 @@
 ---
-- method: d3/Selection/append
-  scope: 
-  returns: d3/Selection
-  summary: Create and append new elements, returning a new selection of them.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-append
-  seealso:
-  - d3/Selection/html§value
-  - d3/Selection/insert
-  params:
-  - name: tagName
-    kind: js/String
-    summary: May have a namespace prefix, such as `svg:text` to create a `<text>` element in the SVG namespace. By default, D3 supports svg, xhtml, xlink, xml and xmlns namespaces. Additional namespaces can be registered by adding to [`d3.ns.prefix`](https://github.com/mbostock/d3/wiki/Namespaces#wiki-prefix).
+method: d3/Selection/append
+returns: d3/Selection
+summary: Create and append new elements, returning a new selection of them.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-append
+seealso:
+- d3/Selection/html§value
+- d3/Selection/insert
+params:
+- name: tagName
+  kind: js/String
+  summary: May have a namespace prefix, such as `svg:text` to create a `<text>` element in the SVG namespace. By default, D3 supports svg, xhtml, xlink, xml and xmlns namespaces. Additional namespaces can be registered by adding to [`d3.ns.prefix`](https://github.com/mbostock/d3/wiki/Namespaces#wiki-prefix).

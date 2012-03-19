@@ -1,5 +1,5 @@
 ---
-- method: d3/Selection/empty
-  returns: js/Boolean
-  summary: Test if there are any DOM elements in the selection.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-empty
+method: d3/Selection/empty
+returns: js/Boolean
+summary: Test if there are any DOM elements in the selection.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-empty

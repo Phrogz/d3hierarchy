@@ -1,6 +1,5 @@
 ---
 - method: d3/Selection/style§get
-  scope: 
   returns: js/String
   summary: Get the computed value of a CSS style property.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-style
@@ -11,7 +10,6 @@
   - name: name
     kind: js/String
 - method: d3/Selection/style§value
-  scope: 
   returns: d3/Selection
   summary: Set a CSS style property for elements in the selection.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-style
@@ -29,7 +27,6 @@
     summary: Either `null` or the string `"important"`.
     optional: true
 - method: d3/Selection/style§func
-  scope: 
   returns: d3/Selection
   summary: Set a CSS style property for elements in the selection based on data.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-style

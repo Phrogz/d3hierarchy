@@ -1,6 +1,5 @@
 ---
 - method: d3/Selection/property§get
-  scope: 
   returns: js/String
   summary: Get the value of a DOM property.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-property
@@ -12,7 +11,6 @@
   - name: name
     kind: js/String
 - method: d3/Selection/property§value
-  scope: 
   returns: d3/Selection
   summary: Set a DOM property for elements in the selection.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-property
@@ -31,7 +29,6 @@
     summary: Either `null` or the string `"important"`.
     optional: true
 - method: d3/Selection/property§func
-  scope: 
   returns: d3/Selection
   summary: Set a DOM property for elements in the selection based on data.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-property

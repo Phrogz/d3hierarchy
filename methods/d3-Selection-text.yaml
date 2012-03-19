@@ -1,6 +1,5 @@
 ---
 - method: d3/Selection/text§get
-  scope: 
   returns: js/String
   summary: Get the `textContent` for a DOM element.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-text
@@ -8,9 +7,7 @@
   - d3/Selection/text§value
   - d3/Selection/text§func
   - d3/Selection/html§get
-  params: 
 - method: d3/Selection/text§value
-  scope: 
   returns: d3/Selection
   summary: Set the text content for elements in the selection.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-text
@@ -23,7 +20,6 @@
     kind: js/String
     summary: If this parameter is not a string it is forced to one.
 - method: d3/Selection/text§func
-  scope: 
   returns: d3/Selection
   summary: Set the text content for elements in the selection based on data.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-text

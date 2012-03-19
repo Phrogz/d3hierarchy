@@ -1,20 +1,20 @@
 ---
-- method: d3/Selection/call
-  returns: d3/Selection
-  summary: Invoke a function, passing the selection and returning it.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-call
-  seealso:
-  - d3/Selection/each
-  params:
-  - name: func
-    kind: js/Function
-    summary: Invoked and passed the selection (and any additional arguments); the `this` is also set to the selection.
-  - name: funcArg1
-    kind: js/Object
-    optional: true
-  - name: funcArg2
-    kind: js/Object
-    optional: true
-  - name: …
-    kind: js/Object
-    optional: true
+method: d3/Selection/call
+returns: d3/Selection
+summary: Invoke a function, passing the selection and returning it.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-call
+seealso:
+- d3/Selection/each
+params:
+- name: func
+  kind: js/Function
+  summary: Invoked and passed the selection (and any additional arguments); the `this` is also set to the selection.
+- name: funcArg1
+  kind: js/Object
+  optional: true
+- name: funcArg2
+  kind: js/Object
+  optional: true
+- name: …
+  kind: js/Object
+  optional: true

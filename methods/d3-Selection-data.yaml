@@ -1,15 +1,12 @@
 ---
 - method: d3/Selection/data§get
-  scope: 
   returns: js/Array
   summary: Get the data array for the first group in the selection.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-data
   seealso:
   - d3/Selection/data§value
   - d3/Selection/data§func
-  params: 
 - method: d3/Selection/data§value
-  scope: 
   returns: d3/Selection
   summary: Set the data array for the selection, computing the update, enter, and exit selections.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-data
@@ -24,7 +21,6 @@
     summary: This function is yielded the values of the array and must return a unique string for each.
     optional: true
 - method: d3/Selection/data§func
-  scope: 
   returns: d3/Selection
   summary: Set the data array for the selection based on existing data.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-data

@@ -1,9 +1,7 @@
 ---
-- method: d3/Selection/order
-  scope: 
-  returns: d3/Selection
-  summary: Reorder the elements in the DOM to match the order of elements in the selection.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-order
-  seealso:
-  - d3/Selection/sort
-  params: 
+method: d3/Selection/order
+returns: d3/Selection
+summary: Reorder the elements in the DOM to match the order of elements in the selection.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-order
+seealso:
+- d3/Selection/sort

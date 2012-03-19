@@ -1,6 +1,5 @@
 ---
 - method: d3/Selection/on§get
-  scope: 
   returns: d3/Selection
   summary: Retrieve the event listener for an event type.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-on
@@ -11,7 +10,6 @@
     kind: js/String
     summary: Name of the event, e.g. 'click' or 'mouseover'.
 - method: d3/Selection/on§set
-  scope: 
   returns: d3/Selection
   summary: Retrieve the event listener for an event type.
   url: https://github.com/mbostock/d3/wiki/Selections#wiki-on

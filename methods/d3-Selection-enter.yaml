@@ -1,10 +1,8 @@
 ---
-- method: d3/Selection/enter
-  scope: 
-  returns: d3/EnterSelection
-  summary: Return the array of placeholders for 'missing' elements associated with data.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-enter
-  seealso:
-  - d3/Selection/exit
-  - d3/Selection/attr§func
-  params: 
+method: d3/Selection/enter
+returns: d3/EnterSelection
+summary: Return the array of placeholders for 'missing' elements associated with data.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-enter
+seealso:
+- d3/Selection/exit
+- d3/Selection/attr§func

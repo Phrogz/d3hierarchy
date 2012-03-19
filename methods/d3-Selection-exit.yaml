@@ -1,9 +1,7 @@
 ---
-- method: d3/Selection/exit
-  scope: 
-  returns: d3/Selection
-  summary: Return the selection of elements no longer associated with data.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-exit
-  seealso:
-  - d3/Selection/enter
-  params: 
+method: d3/Selection/exit
+returns: d3/Selection
+summary: Return the selection of elements no longer associated with data.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-exit
+seealso:
+- d3/Selection/enter

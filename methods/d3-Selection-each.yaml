@@ -1,11 +1,11 @@
 ---
-- method: d3/Selection/each
-  returns: d3/Selection
-  summary: Call a function for each element in the selection.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-each
-  seealso:
-  - d3/Selection/call
-  params:
-  - name: func
-    kind: js/Function
-    summary: Invoked for each element in the selection, passed the datum and index, with the `this` context set to the DOM element.
+method: d3/Selection/each
+returns: d3/Selection
+summary: Call a function for each element in the selection.
+url: https://github.com/mbostock/d3/wiki/Selections#wiki-each
+seealso:
+- d3/Selection/call
+params:
+- name: func
+  kind: js/Function
+  summary: Invoked for each element in the selection, passed the datum and index, with the `this` context set to the DOM element.
