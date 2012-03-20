@@ -7,6 +7,8 @@ seealso:
 - d3/Transition/attr§value
 - d3/Transition/attr§func
 - d3/Transition/styleTween
+- d3/Transition/tween
+- d3/Selection/attr
 params:
 - name: name
   kind: js/String
