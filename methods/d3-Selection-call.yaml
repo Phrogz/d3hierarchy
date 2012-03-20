@@ -8,12 +8,12 @@ seealso:
 params:
 - name: func
   kind: js/Function
-  summary: Invoked and passed the selection (and any additional arguments); the `this` is also set to the selection.
-- name: funcArg1
+  summary: Invoked and passed the selection (and any additional arguments); the `this` context is also set to the selection.
+- name: arg1
   kind: js/Object
   optional: true
   summary: First argument to pass to the function.
-- name: funcArg2
+- name: arg2
   kind: js/Object
   optional: true
   summary: Second argument to pass to the function.
