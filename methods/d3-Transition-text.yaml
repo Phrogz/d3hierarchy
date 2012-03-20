@@ -1,0 +1,23 @@
+---
+- method: d3/Transition/text§value
+  returns: d3/Transition
+  summary: Set the text contents to a new value at the start of the transition.
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-text
+  seealso:
+  - d3/Transition/text§func
+  - d3/Selection/text§value
+  params:
+  - name: text
+    kind: js/String
+    summary: The new text contents; a `null` value will clear the content.
+- method: d3/Transition/text§func
+  returns: d3/Transition
+  summary: Set the text contents to a new value at the start of the transition.
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-text
+  seealso:
+  - d3/Transition/text§value
+  - d3/Selection/text§func
+  params:
+  - name: func
+    kind: js/Function
+    summary: Invoked for each element in the transition selection, passed the current datum and index, with the `this` context as the current DOM element. The function's return value is used to set the element's `textContent` at the start of the transition. A `null` value will clear the content.
