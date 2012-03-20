@@ -1,14 +1,14 @@
 ---
-method: d3/Selection/call
-returns: d3/Selection
-summary: Invoke a function, passing the selection and returning it.
-url: https://github.com/mbostock/d3/wiki/Selections#wiki-call
+method: d3/Transition/call
+returns: d3/Transition
+summary: Invoke a function, passing the transition and returning it.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-call
 seealso:
-- d3/Selection/each
+- d3/Transition/each
 params:
 - name: func
   kind: js/Function
-  summary: Invoked and passed the selection (and any additional arguments); the `this` is also set to the selection.
+  summary: Invoked and passed the transition (and any additional arguments); the `this` is also set to the transition.
 - name: funcArg1
   kind: js/Object
   optional: true

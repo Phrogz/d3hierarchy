@@ -8,7 +8,7 @@ seealso:
 params:
 - name: type
   kind: js/String
-  summary: Either "start" or "end"; if omitted the behavior is immediate, as with [Selection.each()](objjob:d3/Selection/each).
+  summary: Either "start" or "end"; if omitted the behavior is immediate, as with [selection.each()](objjob:d3/Selection/each).
   optional: true
 - name: func
   kind: js/Function
