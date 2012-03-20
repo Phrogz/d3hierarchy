@@ -1,0 +1,29 @@
+---
+method: d3/Transition/tween
+returns: d3/Transition
+summary: Create a custom tween operator to run during the transition.
+details: |
+  Here is an example of a custom tween that interpolates the text between two strings with custom-rounded values:
+  
+  ~~~~
+  .tween("text", function(d) {
+    var last = this._lastData||0;
+    var i = d3.interpolateRound(last, d);
+    return function(t){
+      this.textContent = "value: "+i(t);
+    };
+  })
+  .each('end',function(d){ this.__lastData=d });
+  ~~~~
+  {:lang="js"}
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-tween
+seealso:
+- d3/Transition/attrTween
+- d3/Transition/styleTween
+params:
+- name: name
+  kind: js/String
+  summary: A unique name for this tween operation.
+- name: tweenCalculator
+  kind: js/Function
+  summary: Invoked for each element in the transition selection at the start of the transition, passed the current datum, index, and current (pre-transition) attribute value, with the `this` context as the current DOM element. This function must then return a _tween interpolator function_ to use during the transition; the interpolator will be passed parameterized time in the domain `[0,1]` with the `this` context set to DOM element, and must do whatever is necessary to accomplish the tween.
