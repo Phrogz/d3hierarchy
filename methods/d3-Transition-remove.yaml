@@ -1,0 +1,7 @@
+---
+method: d3/Transition/remove
+returns: d3/Transition
+summary: Remove all elements in the selection from the document at the end of the transition.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-remove
+seealso:
+- d3/Selection/remove
