@@ -1,0 +1,15 @@
+---
+method: d3/Transition/each
+returns: d3/Transition
+summary: Run a function on each element at the start or end of the transition.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-each
+seealso:
+- d3/Transition/call
+params:
+- name: type
+  kind: js/String
+  summary: Either "start" or "end"; if omitted the behavior is immediate, as with [Selection.each()](objjob:d3/Selection/each).
+  optional: true
+- name: func
+  kind: js/Function
+  summary: Invoked for each element in the seleciton, with parameters for the datum and index, and with the `this` context set to the DOM element.
