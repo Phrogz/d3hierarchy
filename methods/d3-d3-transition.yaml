@@ -6,6 +6,7 @@ summary: Start an animated transition.
 url: https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_transition
 seealso:
 - d3/Selection/transition
+- d3/Transition/transition
 params:
 - name: selection
   kind: d3/Selection

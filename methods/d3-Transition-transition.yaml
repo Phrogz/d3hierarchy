@@ -1,0 +1,8 @@
+---
+method: d3/Transition/transition
+returns: d3/Transition
+summary: Create a new concurrent transition on selection.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-transition
+seealso:
+- d3/Selection/transition
+- d3/d3/transition
