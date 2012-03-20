@@ -4,8 +4,8 @@ returns: d3/Transition
 summary: Transition a CSS style between two values.
 url: https://github.com/mbostock/d3/wiki/Transitions#wiki-styleTween
 seealso:
-- d3/Transition/attr§get
-- d3/Transition/attr§func
+- d3/Transition/style§value
+- d3/Transition/style§func
 - d3/Selection/style
 params:
 - name: name
