@@ -16,6 +16,7 @@
   seealso:
   - d3/Selection/style§get
   - d3/Selection/style§func
+  - d3/Transition/style§value
   params:
   - name: name
     kind: js/String
@@ -33,6 +34,7 @@
   seealso:
   - d3/Selection/style§get
   - d3/Selection/style§value
+  - d3/Transition/style§func
   params:
   - name: name
     kind: js/String

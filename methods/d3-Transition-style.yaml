@@ -1,0 +1,38 @@
+---
+- method: d3/Transition/style§value
+  returns: d3/Transition
+  summary: Transition a CSS style to a new value.
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-style
+  seealso:
+  - d3/Transition/style§get
+  - d3/Transition/style§func
+  - d3/Selection/style§value
+  params:
+  - name: name
+    kind: js/String
+    summary: The name of the CSS property to transition.
+  - name: value
+    kind: js/String
+    summary: If this parameter is not a string it is forced to one.
+  - name: priority
+    kind: js/String
+    summary: Either `null` or the string `"important"`.
+    optional: true
+- method: d3/Transition/style§func
+  returns: d3/Transition
+  summary: Transition a CSS style to a new value based on data.
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-style
+  seealso:
+  - d3/Transition/style§get
+  - d3/Transition/style§value
+  - d3/Selection/style§func
+  params:
+  - name: name
+    kind: js/String
+  - name: func
+    kind: js/Function
+    summary: Invoked for each element in the transition selection, passed the current datum and index, with the `this` context as the current DOM element. The function's return value is used to set the element's CSS property value at the end of the transition. A `null` value will **not** remove the specified style.
+  - name: priority
+    kind: js/String
+    summary: Either `null` or the string `"important"`.
+    optional: true
