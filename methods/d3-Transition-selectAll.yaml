@@ -1,0 +1,11 @@
+---
+method: d3/Transition/selectAll
+returns: d3/Transition
+summary: Create a sub-transition from the descendant elements matching a selector.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-selectAll
+seealso:
+- d3/Transition/select
+- d3/Selection/selectAll§value
+params:
+- name: selector
+  kind: js/String
