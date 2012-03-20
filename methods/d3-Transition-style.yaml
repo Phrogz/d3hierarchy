@@ -10,7 +10,7 @@
   params:
   - name: name
     kind: js/String
-    summary: The name of the CSS property to transition.
+    summary: Name of the CSS property to transition.
   - name: value
     kind: js/String
     summary: If this parameter is not a string it is forced to one.
@@ -29,6 +29,7 @@
   params:
   - name: name
     kind: js/String
+    summary: Name of the CSS property to transition.
   - name: func
     kind: js/Function
     summary: Invoked for each element in the transition selection, passed the current datum and index, with the `this` context as the current DOM element. The function's return value is used to set the element's CSS property value at the end of the transition. A `null` value will **not** remove the specified style.

@@ -10,6 +10,7 @@
   params:
   - name: name
     kind: js/String
+    summary: Name of the attribute to transition.
   - name: value
     kind: js/String
     summary: Non-string values (e.g. a number like `10`) are coerced to strings before setting.
@@ -20,10 +21,12 @@
   seealso:
   - d3/Transition/attr§get
   - d3/Transition/attr§value
+  - d3/Transition/attrTween
   - d3/Selection/attr§func
   params:
   - name: name
     kind: js/String
+    summary: Name of the attribute to transition.
   - name: func
     kind: js/Function
     summary: Invoked for each element in the transition selection, passed the current datum and index, with the `this` context as the current DOM element. The function's return value is used to set each attribute's value at the end of the transition. A `null` value will **not** remove the specified attribute.
