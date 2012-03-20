@@ -16,6 +16,7 @@
   seealso:
   - d3/Selection/attr§get
   - d3/Selection/attr§func
+  - d3/Transition/attr§value
   params:
   - name: name
     kind: js/String
@@ -29,6 +30,7 @@
   seealso:
   - d3/Selection/attr§get
   - d3/Selection/attr§value
+  - d3/Transition/attr§func
   params:
   - name: name
     kind: js/String

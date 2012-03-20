@@ -3,19 +3,27 @@
   method: d3/Transition/ease§value
   returns: d3/Transition
   summary: Specify easing method for all elements.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-ease
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-ease
   seealso:
   - d3/Transition/ease§func
   - d3/d3/ease
   params:
   - name: easeType
     kind: js/String
-    summary: One of the [predefined easing methods](https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_ease).
+    summary: Name of one of the [predefined easing methods](https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_ease).
+  - name: easeParam1
+    kind: js/String
+    summary: Additional parameter based on the easing function.
+    optional: true
+  - name: easeParam2
+    kind: js/String
+    summary: Additional parameter based on the easing function.
+    optional: true
 -
   method: d3/Transition/ease§func
   returns: d3/Transition
   summary: Specify a custom easing function for all elements.
-  url: https://github.com/mbostock/d3/wiki/Selections#wiki-ease
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-ease
   seealso:
   - d3/Transition/ease§value
   - d3/d3/ease
