@@ -6,6 +6,8 @@ url: https://github.com/mbostock/d3/wiki/Transitions#wiki-styleTween
 seealso:
 - d3/Transition/style§value
 - d3/Transition/style§func
+- d3/Transition/attrTween
+- d3/Transition/tween
 - d3/Selection/style
 params:
 - name: name
