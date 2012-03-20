@@ -14,3 +14,7 @@ params:
 - name: tweenCalculator
   kind: js/Function
   summary: Invoked for each element in the transition selection at the start of the transition, passed the current datum, index, and current (pre-transition) calculated CSS value, with the `this` context as the current DOM element. This function must then return a _tween interpolator function_ to use during the transition; the interpolator will be passed parameterized time in the domain `[0,1]` and must return the desired CSS style value.
+- name: priority
+  kind: js/String
+  summary: Either `null` or the string `"important"`.
+  optional: true

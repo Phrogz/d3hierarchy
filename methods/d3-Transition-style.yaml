@@ -4,7 +4,6 @@
   summary: Transition a CSS style to a new value.
   url: https://github.com/mbostock/d3/wiki/Transitions#wiki-style
   seealso:
-  - d3/Transition/style§get
   - d3/Transition/style§func
   - d3/Selection/style§value
   params:
@@ -23,7 +22,6 @@
   summary: Transition a CSS style to a new value based on data.
   url: https://github.com/mbostock/d3/wiki/Transitions#wiki-style
   seealso:
-  - d3/Transition/style§get
   - d3/Transition/style§value
   - d3/Selection/style§func
   params:
