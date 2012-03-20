@@ -1,0 +1,15 @@
+---
+method: d3/Transition/attrTween§value
+returns: d3/Transition
+summary: Transition an attribute to a value.
+url: https://github.com/mbostock/d3/wiki/Transitions#wiki-attrTween
+seealso:
+- d3/Transition/attr§get
+- d3/Transition/attr§func
+- d3/Selection/attr§value
+params:
+- name: name
+  kind: js/String
+- name: tweenCalculator
+  kind: js/Function
+  summary: Invoked for each element in the transition selection at the start of the transition, passed the current datum, index, and current (pre-transition) attribute value, with the `this` context as the current DOM element. This function must then return a _tween interpolator function_ to use during the transition; the interpolator will be passed parameterized time in the domain `[0,1]` and must return the desired attribute value.

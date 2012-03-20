@@ -1,0 +1,29 @@
+---
+- method: d3/Transition/attr§value
+  returns: d3/Transition
+  summary: Transition an attribute to a value.
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-attr
+  seealso:
+  - d3/Transition/attr§get
+  - d3/Transition/attr§func
+  - d3/Selection/attr§value
+  params:
+  - name: name
+    kind: js/String
+  - name: value
+    kind: js/String
+    summary: Non-string values (e.g. a number like `10`) are coerced to strings before setting.
+- method: d3/Transition/attr§func
+  returns: d3/Transition
+  summary: Transition an attribute value based on data.
+  url: https://github.com/mbostock/d3/wiki/Transitions#wiki-attr
+  seealso:
+  - d3/Transition/attr§get
+  - d3/Transition/attr§value
+  - d3/Selection/attr§func
+  params:
+  - name: name
+    kind: js/String
+  - name: func
+    kind: js/Function
+    summary: Invoked for each element in the transition selection, passed the current datum and index, with the `this` context as the current DOM element. The function's return value is used to set each attribute's value at the end of the transition. A `null` value will **not** remove the specified attribute.
