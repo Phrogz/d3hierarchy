@@ -1,0 +1,4 @@
+property: d3/d3/version
+scope: self
+kind: js/String
+summary: The version number of D3 being run.
