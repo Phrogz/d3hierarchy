@@ -3,11 +3,12 @@ method: d3/d3/ease
 scope: self
 returns: js/Function
 summary: Retrieve a predefined easing function.
-details: >
-	The easing function returned by this method (or that you may supply to [`transition.ease()`](d3/Transition/ease§func)
+details: |
+  The easing function returned by this method (or that you may supply to [`transition.ease()`](d3/Transition/ease§func)
   will be supplied the percent of time through the transition (in the range `[0,1]`) and is expected to yield the percent of the transition that should be shown (again in the range `[0,1]`).
 
-  As described in the official documentation:<br/>The returned value is typically in the range [0,1] as well, but may extend slightly beyond this range for certain easing functions, such as "elastic"._
+  As described in the official documentation:  
+  _The returned value is typically in the range [0,1] as well, but may extend slightly beyond this range for certain easing functions, such as "elastic"._
 url: https://github.com/mbostock/d3/wiki/Transitions#wiki-d3_ease
 seealso:
 - d3/Transition/ease§value
