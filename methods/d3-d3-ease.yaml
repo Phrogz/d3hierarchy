@@ -4,7 +4,7 @@ scope: self
 returns: js/Function
 summary: Retrieve a predefined easing function.
 details: |
-  The easing function returned by this method (or that you may supply to [`transition.ease()`](d3/Transition/ease§func)
+  The easing function returned by this method (or that you may supply to [`transition.ease()`](objjob:d3/Transition/ease§func))
   will be supplied the percent of time through the transition (in the range `[0,1]`) and is expected to yield the percent of the transition that should be shown (again in the range `[0,1]`).
 
   As described in the official documentation:  
